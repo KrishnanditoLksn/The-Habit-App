@@ -38,7 +38,7 @@ class DetailHabitActivity : AppCompatActivity() {
             if (habit != null) {
                 selectedHabit = habit
                 findViewById<CollapsingToolbarLayout>(R.id.toolbar_layout).title = habit.title
-                findViewById<EditText>(R.id.detail_ed_time_minutes).setText(habit.minutesFocus.toString())
+                findViewById<EditText>(R.id.detail_ed_time_minutes).setText(String.format(habit.minutesFocus.toString()))
                 findViewById<EditText>(R.id.detail_ed_start_time).setText(habit.startTime)
                 when (habit.priorityLevel) {
                     resources.getStringArray(R.array.priority_level)[0] -> {
