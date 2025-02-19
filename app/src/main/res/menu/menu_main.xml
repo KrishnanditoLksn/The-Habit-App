@@ -18,9 +18,17 @@
         android:icon="@drawable/ic_sort_list"
         app:showAsAction="ifRoom" />
 
+<!--    <item-->
+<!--        android:id="@+id/action_filter"-->
+<!--        android:orderInCategory="102"-->
+<!--        android:title="@string/filter"-->
+<!--        android:icon="@drawable/ic_filter"-->
+<!--        >-->
+<!--    </item>-->
+
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="102"
+        android:orderInCategory="103"
         android:title="@string/action_settings"
         app:showAsAction="never" />
 </menu>
